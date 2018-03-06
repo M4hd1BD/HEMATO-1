@@ -66,7 +66,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2 text-xs-center">
-                <h3 class="mbr-section-title display-2">ব্লাড ব্যাংক</h3>
+                <h3 class="mbr-section-title display-2">HEMATO</h3>
                 <div class="lead">
                     <form action="search_result.php" id="search_form" method="GET">
                         <select name="q" autocomplete="off" id="list_search" type="search" required value="<?=@$keyword;?>" class="form-control">
@@ -123,7 +123,7 @@ Phone: +245 710 301 320<br></p>
 $copyYear = 2016; 
 $curYear = date('Y'); 
 echo $copyYear . (($copyYear != $curYear) ? '-' . $curYear : '');
-?> | <a class="text-white" href="bloodbank.appslab.co.ke">ব্লাড ব্যাংক</a></p>
+?> | <a class="text-white" href="bloodbank.appslab.co.ke">HEMATO</a></p>
     </div>
     </div>
 </footer>
